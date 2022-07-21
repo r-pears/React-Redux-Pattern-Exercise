@@ -1,0 +1,9 @@
+.cartIcon {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.cartIcon:hover {
+  opacity: 1;
+}
+
