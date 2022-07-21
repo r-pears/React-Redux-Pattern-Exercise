@@ -7,3 +7,8 @@
   opacity: 1;
 }
 
+.productDetailsImg {
+  width: 100%;
+  height: 20vw;
+  object-fit: contain;
+}
