@@ -16,7 +16,7 @@ export function calculateCartTotal(products, cart, discountAmount = 0) {
 
 /** can't just calculate the length so we
  * sum the quantity key for each item */
-export function calculateTotalQuantityCart(){
+export function calculateTotalQuantityCart(cart){
   let totalQuantity = 0;
   for (let id in cart) {
     totalQuantity += cart[id];
